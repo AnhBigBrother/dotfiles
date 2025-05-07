@@ -39,5 +39,3 @@ setmap("n", "<Tab>h", "<cmd>:BufferLineCyclePrev<CR>", { desc = "Jump to previou
 setmap("n", "<Tab>x", "<cmd>:Bdelete<CR>", { desc = "Force close current buffer", silent = true })
 setmap("n", "<Tab>fx", "<cmd>:Bdelete!<CR>", { desc = "Jump to next buffer", silent = true })
 setmap("n", "<Tab>co", "<cmd>:BufferLineCloseOthers<CR>", { desc = "Close all others buffer", silent = true })
-
-
